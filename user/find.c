@@ -40,7 +40,6 @@ find(char* path, char* name)
         return;
     }
 
-    // Use fork to create a new process to handle the sub-directory
     switch (st.type) {
     case T_DEVICE:
     case T_FILE:
